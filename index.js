@@ -14,7 +14,7 @@ mongoose.connect('mongodb+srv://admin:admin1234@zuitt-bootcamp.2q2jw.mongodb.net
 // mongoose.connect("mongodb+srv://admin:admin123@cluster0.7iowx.mongodb.net/csp3?retryWrites=true&w=majority", {useNewUrlParser: true, useUnifiedTopology: true});
 mongoose.connection.once('open', () => console.log('Now connected to MongoDB Atlas.'))
 
-// Server setup
+// Server 
 const app = express();
 
 const corsOptions = {
