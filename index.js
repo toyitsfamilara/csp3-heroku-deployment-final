@@ -4,7 +4,7 @@ const cors = require("cors");
 const productRoutes = require("./routes/productRoutes");
 const userRoutes = require("./routes/userRoutes");
 
-// Add the database connectio
+// Add the database connection
 mongoose.connect('mongodb+srv://admin:admin1234@zuitt-bootcamp.2q2jw.mongodb.net/csp3?retryWrites=true&w=majority', 
 	{
 		useNewUrlParser: true, 
