@@ -18,7 +18,7 @@ mongoose.connection.once('open', () => console.log('Now connected to MongoDB Atl
 const app = express();
 
 const corsOptions = {
-	origin: ['http://localhost:3000', 'https://csp3-heroku-deployment.herokuapp.com'],
+	origin: ['http://localhost:3000', 'https://sleepy-eyes-bony-knees01234.herokuapp.com'],
 	optionsSuccessStatus: 200
 }
 
